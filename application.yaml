@@ -26,7 +26,7 @@ spec:
   syncPolicy:
     syncOptions:
     #Argocd will create NS for its configs incase it does't exist
-      - CreateNamespace = true
+      - CreateNamespace=true
 
       #Argocd will auto sync changes in Git Repo
     automated: 
